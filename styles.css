@@ -1,0 +1,22 @@
+.songs-search-result {
+    border: 1px solid Gray;
+    border-radius: 10px;
+    width: 35%;
+    height: 63px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.songs-search-result  .track{
+    float: left;
+    width: 200px;
+}
+.songs-search-result  .artist{
+    float: left;
+    width: 200px;
+}
+
+.search-box {
+    border: 1px solid Gray;
+    border-radius: 5px;
+    width: 50%;
+}
