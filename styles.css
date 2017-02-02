@@ -1,22 +1,53 @@
+body {
+    background-color: ghostwhite;
+}
 .songs-search-result {
     border: 1px solid Gray;
     border-radius: 10px;
-    width: 35%;
-    height: 63px;
+    width: 84%;
+    height: 80px;
     margin-bottom: 5px;
+    margin-left: 8%;
+    margin-right: 8%;
     padding: 5px;
 }
-.songs-search-result  .track{
+
+.songs-search-result .track{
     float: left;
     width: 200px;
 }
-.songs-search-result  .artist{
+
+.songs-search-result .artist{
     float: left;
     width: 200px;
+}
+
+.songs-search-result .cover-art{
+    float: left;
+    height: 78px;
+    margin-top: 4px;
+}
+
+.songs-search-result .preview{
+    float: right;
+    align-content: center;
 }
 
 .search-box {
     border: 1px solid Gray;
     border-radius: 5px;
     width: 50%;
+}
+.navbar-alterations {
+    background-color: dodgerblue;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.navbar-inverse .navbar-brand{
+    color: white;
+}
+
+.navbar-searchbox {
+    float: right;
 }
